@@ -187,8 +187,9 @@ The optional parameter `large: true` will make the popup wider.
 
 ### popup
 ```
-service: browser_mod.popup
+service: browser_mod.command
 service_data:
+  command: popup
   title: Popup example
   card:
     type: entities
